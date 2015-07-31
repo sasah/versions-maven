@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <prerequisites>
+        <maven>3.2.5</maven>
+    </prerequisites>
+
+    <groupId>hello.versions-maven</groupId>
+    <artifactId>versions-maven</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>versions-maven</name>
+    <description>Управление версиями зависимостей в Maven проекте</description>
+    <url>https://github.com/sasah/versions-maven</url>
+
+    <organization>
+        <name>sasah</name>
+        <url>https://github.com/sasah</url>
+    </organization>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/sasah/versions-maven/issues</url>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:https://github.com/sasah/versions-maven.git</connection>
+        <url>https://github.com/sasah/versions-maven</url>
+    </scm>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.2.5.RELEASE</version>
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+</project>
