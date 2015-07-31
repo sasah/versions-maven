@@ -1,0 +1,9 @@
+spring:
+  main.show-banner: false
+  jmx.enabled: false
+
+  mvc:
+    favicon.enabled: false
+
+  thymeleaf:
+    cache: false
